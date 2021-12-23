@@ -1,0 +1,33 @@
+html, body, #app {
+	margin: 0;
+	padding: 0;
+  height: 100%;
+	color: #C5D4E3;
+	background-color: #22272E;
+}
+#app {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.examples {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 480px;
+}
+.examples__item:not(:last-child) {
+	margin-bottom: 48px;
+}
+.example {
+	display: flex;
+	align-items: center;
+}
+.example__ui,
+.example__debug {
+	width: 50%;
+}
+.list__item:not(:last-child) {
+	margin-bottom: 16px;
+}
