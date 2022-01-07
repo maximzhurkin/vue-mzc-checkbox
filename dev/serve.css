@@ -31,3 +31,9 @@ html, body, #app {
 .list__item:not(:last-child) {
 	margin-bottom: 16px;
 }
+.vue-mzc-checkbox {
+  --vue-mzc-checkbox-border-color: #444C56;
+  --vue-mzc-checkbox-border-hover-color: #75828F;
+  --vue-mzc-checkbox-background-color: #22272E;
+  --vue-mzc-checkbox-icon-color: #C5D4E3;
+}

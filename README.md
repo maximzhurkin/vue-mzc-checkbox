@@ -38,3 +38,17 @@ export default {
 <vue-mzc-checkbox v-model="selected" value="HTML">HTML</vue-mzc-checkbox>
 <vue-mzc-checkbox v-model="selected" value="CSS">CSS</vue-mzc-checkbox>
 ```
+## Customize
+```css
+.vue-mzc-checkbox {
+  --vue-mzc-checkbox-size: 24px;
+  --vue-mzc-checkbox-gap: 8px;
+  --vue-mzc-checkbox-border-radius: 4px;
+  --vue-mzc-checkbox-border-color: #dddddd;
+  --vue-mzc-checkbox-border-hover-color: #cccccc;
+  --vue-mzc-checkbox-background-color: #ffffff;
+  --vue-mzc-checkbox-icon-color: #ffffff;
+  --vue-mzc-checkbox-primary-color: #306EC4;
+  --vue-mzc-checkbox-primary-hover-color: #3F78C7;
+}
+```

@@ -1,7 +1,6 @@
 <script>
 import Vue from "vue";
 import VueMzcCheckbox from "@/vue-mzc-checkbox.vue";
-import "../src/vue-mzc-checkbox.css";
 import "./serve.css";
 
 export default Vue.extend({
