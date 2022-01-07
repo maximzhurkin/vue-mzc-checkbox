@@ -71,6 +71,7 @@ export default /*#__PURE__*/ {
   --vue-mzc-checkbox-size: 24px;
   --vue-mzc-checkbox-gap: 8px;
   --vue-mzc-checkbox-border-radius: 4px;
+  --vue-mzc-checkbox-border-width: 1px;
   --vue-mzc-checkbox-border-color: #dddddd;
   --vue-mzc-checkbox-border-hover-color: #cccccc;
   --vue-mzc-checkbox-background-color: #ffffff;
@@ -110,7 +111,10 @@ export default /*#__PURE__*/ {
   position: absolute;
   top: 0;
   left: 0;
-  border: 1px solid #dddddd;
+  border-width: 1px;
+  border-width: var(--vue-mzc-checkbox-border-width);
+  border-style: solid;
+  border-color: #dddddd;
   border-color: var(--vue-mzc-checkbox-border-color);
   background-color: #ffffff;
   background-color: var(--vue-mzc-checkbox-background-color);

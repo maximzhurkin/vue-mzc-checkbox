@@ -44,6 +44,7 @@ export default {
   --vue-mzc-checkbox-size: 24px;
   --vue-mzc-checkbox-gap: 8px;
   --vue-mzc-checkbox-border-radius: 4px;
+  --vue-mzc-checkbox-border-width: 1px;
   --vue-mzc-checkbox-border-color: #dddddd;
   --vue-mzc-checkbox-border-hover-color: #cccccc;
   --vue-mzc-checkbox-background-color: #ffffff;
